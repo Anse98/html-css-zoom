@@ -1,0 +1,44 @@
+
+/* REGOLE GENERALI */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+figure {
+  width:calc(100% / 7);
+  display: inline-block;
+}
+
+/* MAIN-CONTENT */
+
+main {
+  height: 100vh;
+  background-color:#000000;
+}
+
+.toolbar {
+  height:80px;
+  background-color: #222222;
+}
+
+.main-header {
+  min-height: 100px;
+  border: white 1px solid;
+}
+
+.img-container {
+  width:1600px;
+  margin: auto;
+  background-color: white;
+  word-spacing: -4px;
+}
+
+
+
+/* TOOLBAR */
