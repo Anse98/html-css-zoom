@@ -31,6 +31,10 @@ body {
   display: flex;
 }
 
+ul, ol {
+  list-style:none;
+}
+
 /* HEADER*/
 
 header {
@@ -64,7 +68,6 @@ figure div {
 /* FOOTER */
 
 footer {
-  min-height:80px;
   background-color: #222222;
   position: sticky;
   bottom: 0;
@@ -75,6 +78,7 @@ footer {
 
 .row {
   justify-content: space-between;
+  align-items: center;
 }
 
 .row .end-meeting {
@@ -93,6 +97,14 @@ footer {
   text-align: center;
 }
 
-.left-container-items i {
+.row i {
   font-size: 20px;
+  padding: 10px;
+}
+
+.center-container ul {
+  display: flex;
+  gap: 15px;
+  text-align: center;
+  flex-wrap: wrap;
 }
