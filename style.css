@@ -19,6 +19,7 @@ main {
 
 figure {
   width: 200px;
+  position: relative;
 }
 
 body {
@@ -47,6 +48,14 @@ header {
   }
 /* MAIN */
 
+figure div {
+  color: white;
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.903);
+  opacity: 0.6;
+  padding: 5px;
+}
 
 /* FOOTER */
 
@@ -59,3 +68,4 @@ footer {
   left: 0;
   color: white;
 }
+
